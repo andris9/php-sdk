@@ -1,10 +1,10 @@
 ## Usage
 
-    require 'php-sdk/fortumo.php';
+    require "php-sdk/fortumo.php";
     
     $fortumo = new Fortumo(array(
-        'serviceId' => 'YOUR_SERVICE_ID',
-        'secret' => 'YOUR_SERVICE_SECRET'
+        "serviceId" => "YOUR_SERVICE_ID",
+        "secret" => "YOUR_SERVICE_SECRET"
     ));
     
     // Validate payment request
