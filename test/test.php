@@ -1,7 +1,7 @@
 <?php
 $_GET = json_decode('{"billing_type":"MO","country":"EE","currency":"EUR","keyword":"FOR TEST","message":"tere tere","message_id":"5a4c47e43def7955a5d375fb19446fd0","operator":"Elisa","price":"0.32","sender":"37251940072","service_id":"c4b756ca6da4a88fa5c61181aa484b08","shortcode":"1311","sig":"9029c81198aacedc47dfc2b2289e5b87","status":"pending","test":"true"}', true);
 
-require_once("../php-sdk/fortumo.php");
+require_once("../src/fortumo.php");
 
 header("content-type: text/plain; charset=utf-8");
 

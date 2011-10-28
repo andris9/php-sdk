@@ -1,6 +1,6 @@
 ## Usage
 
-    require "php-sdk/fortumo.php";
+    require "php-sdk/src/fortumo.php";
     
     $fortumo = new Fortumo(array(
         "serviceId" => "YOUR_SERVICE_ID",
